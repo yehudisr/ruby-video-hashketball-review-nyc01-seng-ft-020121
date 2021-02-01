@@ -130,7 +130,6 @@ end
 # Write code here
 def players
   game_hash[:home][:players].concat(game_hash[:away][:players])
-  
 end   
 
 binding.pry
