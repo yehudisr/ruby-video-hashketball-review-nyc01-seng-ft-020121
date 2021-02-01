@@ -133,7 +133,8 @@ def players
 end   
 
 def player
-  players[:player_name]
+  players.each do |player|
+  player  
 end  
 
 def num_points_scored player_name
