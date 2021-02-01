@@ -133,7 +133,8 @@ def players
 end   
 
 def player
-  players.map 
+  players.each do |player|
+  end  
 end  
 
 def num_points_scored player_name
