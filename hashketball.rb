@@ -134,6 +134,7 @@ end
 
 def player
   players.each do |player|
+    player
   end  
 end  
 
