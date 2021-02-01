@@ -133,7 +133,7 @@ def players
 end   
 
 def player
-  players.each 
+  players.map 
 end  
 
 def num_points_scored player_name
